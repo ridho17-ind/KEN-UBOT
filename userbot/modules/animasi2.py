@@ -1750,7 +1750,7 @@ async def koc(e):
         await e.edit("8✊===D💦💦💦💦💦💦💦💦")
         await e.edit("8===✊D💦💦💦💦💦💦💦💦💦")
         await e.edit("8==✊=D💦💦💦💦💦💦💦💦💦💦")
-        await e.edit("8=✊==D Lah Kok Habis?")
+        await e.edit("8=✊==D Lah Kok Habis Anj?")
         await e.edit("😭😭😭😭")
 
 
