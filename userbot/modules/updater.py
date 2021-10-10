@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nSedang MengUpdate 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓, Mohon Menunggu 5-7 Menit`'
+                         '\nSedang MengUpdate SKY-𝐔𝐁𝐎𝐓, Mohon Menunggu 5-7 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n☄️ 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 Sudah Versi Terbaru\n')
+            f'\n☄️ SKY-𝐔𝐁𝐎𝐓 Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n Command: >`.update now`\n Command: >`.update deploy`\n\n__Untuk Meng Update Fitur 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓.__')
+        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n Command: >`.update now`\n Command: >`.update deploy`\n\n__Untuk Meng Update Fitur SKY-𝐔𝐁𝐎𝐓.__')
 
     if force_update:
         await event.edit(
@@ -234,7 +234,7 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-    "\n• : Untuk Melihat Pembaruan Terbaru KEN-UBOT."
+    "\n• : Untuk Melihat Pembaruan Terbaru SKY-UBOT."
     "\n\nCommand: `.update now`"
     "\n• : Memperbarui SKY-UBOT."
     "\n\nCommand: `.update deploy`"
