@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting KEN-UBOT...`")
+    await event.edit("`Restarting SKY-UBOT...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -110,9 +110,9 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **𝐊𝐄𝐍-𝐔𝐁𝐎𝐓** \n"
-        "➣ **Repo :** [Github](https://github.com/KennedyProject/KEN-UBOT)\n"
-        "➣ **Owner :** [Ken](t.me/xgothboi)"
+        "**Hey**, I am using **SKY-𝐔𝐁𝐎𝐓** \n"
+        "➣ **Repo :** [Github](https://github.com/ridho17-ind/KEN-UBOT)\n"
+        "➣ **Owner :** [Skyzo](t.me/XFLSkyzo)"
     )
 
 
