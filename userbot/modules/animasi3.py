@@ -365,6 +365,23 @@ async def typewriter(typew):
     await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.skyzo(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Eh Asu`")
+    sleep(1)
+    await typew.edit("`Kenalin Owner Gua`")
+    sleep(1)
+    await typew.edit("`Lord Skyzo`")
+    sleep(1)
+    await typew.edit("`Yang Paling Ganteng`")
+    sleep(1)
+    await typew.edit("`Wahahahaha`")
+    sleep(1)
+    await typew.edit("`Jan Lupa Subs @SadRoomsInfo`")
+# Create by myself @localheart
+
+
 
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
@@ -396,6 +413,7 @@ async def _(event):
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 25%\n███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
@@ -444,6 +462,6 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean` atau `.skyzo`\
     \n↳ : Kasih aja buat orang yang sangean."
 })
