@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 Versi:** \n "
-            f"heads/KEN-UBOT-0-x634i7u1"
+            "**⚜-**SKY-𝐔𝐁𝐎𝐓 Versi:** \n "
+            f"heads/SKY-UBOT-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𝐓𝐇𝐄 𝐊𝐄𝐍 - 𝐔𝐁𝐎𝐓**\n"
+        f"**𝐓𝐇𝐄 SKY - 𝐔𝐁𝐎𝐓**\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
         f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[KEN](t.me/xgothboi) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-KEN​](https://github.com/KennedyProject/KEN-UBOT)\n👥 : [KEN-TEAM](t.me/zeusspam)\n👤 : [OWNER](t.me/xgothboi)\n"
+        f"🔧 : [REPO](https://github.com/ridho17-ind/KEN-UBOT)\n👥 : [SKY-TEAM](t.me/FlicksSupport)\n👤 : [OWNER](t.me/XFLSkyzo)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -301,11 +301,11 @@ async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("**__A L I V E__**")
-    await alive.edit("**__AL I V E__**")
-    await alive.edit("**__ALI V E__**")
+    await alive.edit("**__S K Y - U B O T__**")
+    await alive.edit("**__I S   O N L I N E__**")
     await alive.edit("**__ALIV E__**")
     await alive.edit("**__ALIVE__**")
-    await alive.edit("✨")
+    await alive.edit("😎")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -316,7 +316,7 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `Github   :` [Userbot](https://github.com/KEN-UBOT) \n"
+        f"┣  `Github   :` [Userbot](https://github.com/ridho17-ind) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
