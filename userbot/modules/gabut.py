@@ -54,7 +54,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Intinya lo alay maen bot mulu**")
     sleep(2)
-    await typew.edit("**Lawriiiiiiieeeee:v")
+    await typew.edit("**Lawriiiiiiieeeee:v**")
 # Alay maen bot mulu ngentot!
 
 
