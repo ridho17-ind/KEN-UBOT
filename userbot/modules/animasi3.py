@@ -378,7 +378,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Wahahahaha`")
     sleep(1)
-    await typew.edit("`Jan Lupa Subs @SadRoomsInfo`")
+    await typew.edit("`Dah`")
 # Create by myself @localheart
 
 
