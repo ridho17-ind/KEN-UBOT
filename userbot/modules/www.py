@@ -90,17 +90,17 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡UBOT⚡")
-    await pong.edit("UB⚡OT")
-    await pong.edit("UBO⚡T")
-    await pong.edit("UBOT⚡")
-    await pong.edit("UBO⚡T")
-    await pong.edit("UB⚡OT")
-    await pong.edit("U⚡BOT")
-    await pong.edit("⚡UBOT⚡")
+    await pong.edit("T E S T")
+    await pong.edit("B O T")
+    await pong.edit("T I M E")
+    await pong.edit("N O W")
+    await pong.edit("O N L I N E")
+    await pong.edit("B Y   S K Y Z O")
+    await pong.edit("I S")
+    await pong.edit("N E W   U S E R B O T")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡{ALIVE_NAME} Bᴏᴛ⚡​**\n"
+    await pong.edit(f"**🔰{ALIVE_NAME} Bᴏᴛ🔰​**\n"
                     f"➤ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➤ __Uptime__ __:__ "
@@ -141,13 +141,15 @@ async def redis(pong):
     await pong.edit("࿘࿘")
     await pong.edit("࿘࿘࿘")
     await pong.edit("࿘࿘࿘࿘")
+    await pong.edit("࿘࿘࿘࿘࿘")
+    await pong.edit("**Please Wait Lord !!**")
     await pong.edit("**Pong !!**")
-    await pong.edit("⚡")
+    await pong.edit("🍑")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🏓 Pong!!** \n"
-                    f"⚡ **Speed !!** "
+                    f"📸 **Speed !!** "
                     f"`%sms` \n"
                     f"💡 **Uptime** - "
                     f"`{uptime}` \n" % (duration))
@@ -226,21 +228,22 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong...........🐤`")
-    await pong.edit("`Pong..........🐤.`")
-    await pong.edit("`Pong.........🐤..`")
-    await pong.edit("`Pong........🐤...`")
-    await pong.edit("`Pong.......🐤....`")
-    await pong.edit("`Pong......🐤.....`")
-    await pong.edit("`Pong.....🐤......`")
-    await pong.edit("`Pong....🐤.......`")
-    await pong.edit("`Pong...🐤........`")
-    await pong.edit("`Pong..🐤.........`")
-    await pong.edit("`Pong.🐤..........`")
-    await pong.edit("`Pong🐤...........`")
+    await pong.edit("`Titid...........🐤`")
+    await pong.edit("`Titid..........🐤.`")
+    await pong.edit("`Titid.........🐤..`")
+    await pong.edit("`Titid........🐤...`")
+    await pong.edit("`Titid.......🐤....`")
+    await pong.edit("`Titid......🐤.....`")
+    await pong.edit("`Titid.....🐤......`")
+    await pong.edit("`Titid....🐤.......`")
+    await pong.edit("`Titid...🐤........`")
+    await pong.edit("`Titid..🐤.........`")
+    await pong.edit("`Titid.🐤..........`")
+    await pong.edit("`Titid🐤...........`")
+    await pong.edit("`Lah Kok Ilang...`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("**Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("**Test Titid!**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({
