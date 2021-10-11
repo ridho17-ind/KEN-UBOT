@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓`'
+                ' untuk dapat deploy perubahan terbaru dari 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓`'
             )
             repo.__del__()
             return
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n☄️ SKY-𝐔𝐁𝐎𝐓 Sudah Versi Terbaru\n')
+            f'\n🔰 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓 Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -214,12 +214,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Loading....1%`')
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Loading....20%`')
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Loading....35%`')
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Loading....77%`')
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Updating...90%`')
-        await event.edit('` Proses Update SKY-𝐔𝐁𝐎𝐓, Mohon Tunggu Sebentar....100%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Loading....1%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Loading....20%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Loading....35%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Loading....77%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Updating...90%`')
+        await event.edit('` Proses Update 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓, Mohon Tunggu Sebentar....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -238,5 +238,5 @@ CMD_HELP.update({
     "\n\nCommand: `.update now`"
     "\n• : Memperbarui SKY-UBOT."
     "\n\nCommand: `.update deploy`"
-    "\n• : Memperbarui KEN-UBOT Dengan Cara Men-Deploy Ulang."
+    "\n• : Memperbarui SKY-UBOT Dengan Cara Men-Deploy Ulang."
 })
