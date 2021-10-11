@@ -25,7 +25,7 @@ async def _(event):
     else:
         uid = reply_message.sender_id
     chat = "@tgscanrobot"
-    event = await event.edit("`Sedang Mendeteksi...`")
+    event = await event.edit("`Sedang Mendeteksi....`")
     async with bot.conversation(chat) as conv:
         try:
             await conv.send_message(f"{uid}")
