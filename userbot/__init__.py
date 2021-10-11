@@ -448,8 +448,8 @@ with bot:
                     f"__**Semoga betah ya Kawan**__ ✨\n",
                     buttons=[
                         [
-                            Button.url("ᴛᴜᴛᴏʀɪᴀʟ ᴜsᴇʀʙᴏᴛ​",
-                                       "https://t.me/KennedyProject")],
+                            Button.url("Support Channel​",
+                                       "https://t.me/SadRoomsInfo")],
                     ]
                 )
 
@@ -462,11 +462,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/SadRoomsInfo"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/FlicksSupport")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/xgothboi")],
+                                    "t.me/XFLSkyzo")],
                     ]
                 )
 
@@ -477,7 +477,7 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"**Hello** [{get_display_name(u)}](tg://user?id={u.id}) **Is Its Alive Bot**\n\n"
-                    f"       令 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 令 \n"
+                    f"       令 SKY-𝐔𝐁𝐎𝐓 令 \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱\n"
                     f"      ⚡ I'ᴍ Aʟɪᴠᴇ​ ⚡ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱ \n"
@@ -496,10 +496,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT"),
+                                                      url="https://github.com/ridho17-ind/KEN-UBOT"),
                                                   custom.Button.url(
                                                       text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/KennedyProject/KEN-UBOT/blob/KEN-UBOT/LICENSE"
+                                                      url="https://github.com/ridho17-ind/KEN-UBOT/blob/KEN-UBOT/LICENSE"
                                                   )
                                               ]
                                           ]
@@ -557,18 +557,18 @@ with bot:
             else:
                 result = builder.article(
                     " Alive\n Check Alive Stats! ",
-                    text=f"""__**The KEN-UBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
+                    text=f"""__**The SKY-UBOT**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
                     buttons=[
                         [
                             custom.Button.url(
                                 "ʀᴇᴘᴏ​",
-                                "https://github.com/KennedyProject/KEN-UBOT"),
+                                "https://github.com/ridho17-ind/KEN-UBOT"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
-                                "t.me/KennedyProject")],
+                                "t.me/FlicksSupport")],
                         [custom.Button.url(
                             "ᴅᴇᴠ​",
-                            "t.me/xgothboi")]],
+                            "t.me/XFLSkyzo")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -604,9 +604,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/KennedyProject"),
+                                       "t.me/SadRoomsInfo"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/kenbotsupport")],
+                                       "t.me/flickssupport")],
                         [Button.inline("Open Menu", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
