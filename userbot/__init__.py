@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**SKY-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
+    await bot.send_message(BOTLOG_CHATID, "**𝐒𝐊𝐘-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
     return
 
 with bot:
@@ -477,7 +477,7 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"**Hello** [{get_display_name(u)}](tg://user?id={u.id}) **Is Its Alive Bot**\n\n"
-                    f"       令 SKY-𝐔𝐁𝐎𝐓 令 \n"
+                    f"       令 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓 令 \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱\n"
                     f"      ⚡ I'ᴍ Aʟɪᴠᴇ​ ⚡ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱ \n"
@@ -550,7 +550,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 ",
+                    "Bantuan Dari 𝐒𝐊𝐘-𝐔𝐁𝐎𝐓 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
