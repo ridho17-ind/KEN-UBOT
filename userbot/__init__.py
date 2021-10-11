@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
+    await bot.send_message(BOTLOG_CHATID, "**SKY-𝐔𝐁𝐎𝐓** `Has Been Activated Master!`")
     return
 
 with bot:
